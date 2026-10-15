@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Jacob Voiselle: construction management, operations, project delivery, and business development.">
+  <title>Jacob Voiselle | Portfolio</title>
+  <style>
+    :root { --bg:#101827; --panel:#172336; --text:#f5f7fb; --muted:#b4c2d3; --accent:#65d6c2; --line:#304053; }
+    * { box-sizing:border-box; } html { scroll-behavior:smooth; }
+    body { margin:0; font:16px/1.65 system-ui,-apple-system,Segoe UI,sans-serif; background:var(--bg);color:var(--text); }
+    a { color:var(--accent); } a:focus-visible { outline:3px solid var(--accent);outline-offset:3px; }
+    .wrap { max-width:1080px;margin:auto;padding:0 24px; }
+    header { border-bottom:1px solid var(--line);background:#101827e8;position:sticky;top:0;backdrop-filter:blur(12px);z-index:10; }
+    nav { display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:74px;flex-wrap:wrap; }
+    .brand { color:var(--text);font-weight:800;text-decoration:none;letter-spacing:.02em; }
+    .navlinks { display:flex;gap:22px;flex-wrap:wrap; } .navlinks a { color:var(--muted);text-decoration:none; } .navlinks a:hover { color:var(--accent); }
+    .hero { padding:110px 0 100px; } .eyebrow { color:var(--accent);text-transform:uppercase;letter-spacing:.15em;font-size:.85rem;font-weight:700; }
+    h1 { font-size:clamp(2.8rem,7vw,5.1rem);line-height:1.1;max-width:850px;margin:14px 0 22px;letter-spacing:-.05em; }
+    .lead { max-width:700px;font-size:1.23rem;color:var(--muted); } .actions { display:flex;gap:14px;flex-wrap:wrap;margin-top:32px; }
+    .button { background:var(--accent);color:#0b1823;padding:12px 20px;border-radius:8px;text-decoration:none;font-weight:750;display:inline-block; }
+    .button.secondary { background:transparent;color:var(--text);border:1px solid var(--line); }
+    section { padding:65px 0;border-top:1px solid var(--line); } h2 { font-size:2rem;letter-spacing:-.03em;margin:0 0 18px; }
+    .muted { color:var(--muted); } .cards { display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:26px; }
+    .card { padding:24px;background:var(--panel);border:1px solid var(--line);border-radius:14px; }
+    .card h3 { margin:0 0 8px;font-size:1.22rem; } .card p { margin:0;color:var(--muted); }
+    .tag { display:inline-block;border:1px solid #3e665f;border-radius:50px;padding:4px 10px;color:var(--accent);font-size:.77rem;margin:6px 6px 0 0; }
+    footer { text-align:center;padding:30px 0;color:var(--muted);border-top:1px solid var(--line); }
+    @media(max-width:600px) { .hero { padding:70px 0; } nav { padding:12px 0; } .navlinks { gap:12px; } }
+  </style>
+</head>
+<body>
+  <header><div class="wrap"><nav aria-label="Main navigation">
+    <a class="brand" href="#top">JV / PORTFOLIO</a>
+    <div class="navlinks"><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+  </nav></div></header>
+  <main id="top">
+    <div class="wrap hero">
+      <div class="eyebrow">Construction • Operations • Business Development</div>
+      <h1>Building projects.<br>Solving problems.<br>Creating value.</h1>
+      <p class="lead">I'm Jacob Voiselle, a construction management graduate with hands-on field experience, estimating, business development, and military aviation maintenance experience. I enjoy turning complex problems into practical solutions.</p>
+      <div class="actions"><a class="button" href="#projects">Explore my work ↓</a><a class="button secondary" href="#contact">Get in touch</a></div>
+    </div>
+    <section id="about"><div class="wrap"><h2>About me</h2>
+      <p class="muted">My background combines construction management education with on-the-ground problem solving. From farm work and construction projects to aircraft maintenance and business development, I bring a practical perspective, attention to detail, and a willingness to learn.</p>
+      <div><span class="tag">Construction management</span><span class="tag">Estimating</span><span class="tag">Project coordination</span><span class="tag">Business development</span><span class="tag">Field operations</span></div>
+    </div></section>
+    <section id="experience"><div class="wrap"><h2>Experience & strengths</h2><div class="cards">
+      <article class="card"><h3>Construction</h3><p>Field experience, estimating, planning, material coordination, and practical problem-solving.</p></article>
+      <article class="card"><h3>Business development</h3><p>Client communication, identifying opportunities, presenting solutions, and supporting growth.</p></article>
+      <article class="card"><h3>Military aviation</h3><p>Aircraft maintenance, safety, teamwork, and accountability in high-stakes environments.</p></article>
+    </div></div></section>
+    <section id="projects"><div class="wrap"><h2>Selected projects</h2><p class="muted">These are starter project categories. Replace them with specific examples, images, and measurable outcomes as you build your portfolio.</p><div class="cards">
+      <article class="card"><h3>01 / Estimating case study</h3><p>Add a sample takeoff, assumptions, pricing process, and lessons learned.</p></article>
+      <article class="card"><h3>02 / Operations improvement</h3><p>Explain a workflow you simplified, problem you diagnosed, or process you improved.</p></article>
+      <article class="card"><h3>03 / This website</h3><p>Document what you learned while designing, coding, and publishing this portfolio for free.</p></article>
+    </div></div></section>
+    <section id="contact"><div class="wrap"><h2>Let's connect</h2><p class="muted">Interested in discussing a project or opportunity? Reach out using one of the links below.</p>
+      <!-- Replace placeholders below with your own public contact links. -->
+      <div class="actions"><a class="button" href="mailto:your-email@example.com">Email me</a><a class="button secondary" href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a></div>
+      <p class="muted"><small>Before publishing: update the placeholder email and GitHub link.</small></p>
+    </div></section>
+  </main><footer><div class="wrap">© <span id="year">2026</span> Jacob Voiselle. Built with HTML & CSS. Hosted on GitHub Pages.</div></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body></html>
